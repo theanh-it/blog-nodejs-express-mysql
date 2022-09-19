@@ -1,10 +1,10 @@
 var Controller  = require("../../_base/controller");
-var userModel   = require("./user.model");
+var postModel   = require("./post.model");
 
-class UserController extends Controller{
+class PostController extends Controller{
     constructor(){
-        super({model: userModel});
+        super({model: postModel});
     }
 }
 
-module.exports = new UserController();
+module.exports = new PostController();

@@ -1,5 +1,5 @@
 var route = require("express").Router();
-var controller = require("./user.controller");
+var controller = require("./post.controller");
 
 route.get("/", controller.index);
 route.get("/:id", controller.show);
