@@ -16,5 +16,5 @@ app.use(require("./cors"));
 app.use("/", require("./app"));
 
 app.listen(port, ()=>{
-    console.log("server runing with: http://localhost:"+port);
+    console.log("server runing with: http://localhost:" + port);
 });
